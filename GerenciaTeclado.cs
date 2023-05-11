@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GerenciaTeclado : MonoBehaviour
 {
-    public TMP_InputField ifield;
+    public  TMP_InputField ifield;
     public void test() {}
     public void Update (){
         ifield=GerenciaPerguntas.ifield;
