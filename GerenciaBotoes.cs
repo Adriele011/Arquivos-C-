@@ -13,7 +13,7 @@ public class GerenciaBotoes : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-      public void um()
+      public void um ()
     {
         SceneManager.LoadScene(2);
     }
@@ -26,7 +26,7 @@ public class GerenciaBotoes : MonoBehaviour
     {
         SceneManager.LoadScene(3);
     }
-     
+
       public void voltar1()
     {
         SceneManager.LoadScene(0);
@@ -111,7 +111,7 @@ public class GerenciaBotoes : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-    
+
     public void numeros()
     {
         SceneManager.LoadScene(7);
@@ -120,7 +120,7 @@ public class GerenciaBotoes : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-     
+
      public void voltar6()
     {
         SceneManager.LoadScene(1);
@@ -141,17 +141,33 @@ public class GerenciaBotoes : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    public void nao()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void sim1()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void nao1()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void voltarP()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
-
-
